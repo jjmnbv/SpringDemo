@@ -8,6 +8,6 @@ public class ClassLoaderTest {
         ClassLoader loader = Thread.currentThread().getContextClassLoader();
         System.out.println("current loader:"+loader);
         System.out.println("parent loader:"+loader.getParent());
-        System.out.println("granparent loader:"+loader.getParent().getParent());
+        System.out.println("grantparent loader:"+loader.getParent().getParent());
     }
 }
