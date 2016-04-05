@@ -1,0 +1,10 @@
+测试资源文件
+classpath:从类路径中加载资源，classpath:和classpath:/是等价的，都是相对于类的根路径。资源文件可以在标准的文件系统中
+，也可以在jar或zip类包中.
+file:使用UrlResource从文件系统中装载资源，可以采用绝对或相对路径
+http://使用UrlResource从Web服务器中装载资源
+ftp://使用UrlResource从Ftp服务器中装载资源
+没有前缀，根据ApplicationContext具体实现类采用对应的类型的Resource.
+?:匹配文件名中的一个字符
+*：匹配文件名中任意个字符
+**：匹配多层路径
