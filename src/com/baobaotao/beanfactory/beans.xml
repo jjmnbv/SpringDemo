@@ -9,4 +9,8 @@
              p:color="黑色"
              p:maxSpeed="200"
              />
+    <!--Bean后处理器-->
+    <bean id="myBeanPostProcessor" class="com.baobaotao.beanfactory.MyBeanPostProcessor"/>
+    <!--Bean工厂后处理期-->
+    <bean id="myBeanFactoryPostProcessor" class="com.baobaotao.beanfactory.MyBeanFactoryPostProcessor"/>
 </beans>

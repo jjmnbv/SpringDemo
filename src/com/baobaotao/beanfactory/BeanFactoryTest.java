@@ -16,7 +16,7 @@ public class BeanFactoryTest {
         Resource res = resolver.getResource("classpath:com/baobaotao/beanfactory/beans.xml");
         BeanFactory bf = new XmlBeanFactory(res);
         System.out.println("init BeanFactory");
-        Car car = bf.getBean("car1",Car.class);
+        Car car = bf.getBean("car",Car.class);
         car.introduce();
         System.out.println("car bean is ready for use!");
     }
